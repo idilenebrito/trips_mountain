@@ -1,3 +1,4 @@
+import 'package:app_viagem/pages/navPages/main_page.dart';
 import 'package:app_viagem/pages/welcome_page.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         
         primarySwatch: Colors.blue,
       ),
-      home: WelcomePage()
+      home: MainPage()
     );
   }
 }
